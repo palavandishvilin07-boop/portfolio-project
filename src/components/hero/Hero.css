@@ -10,6 +10,7 @@
 }
 .text-content,.img-content {
     width: 50%;
+    padding-top: 60px;
 }
 .text-content {
     padding-top: 100px;
@@ -22,10 +23,5 @@
     & p {
         padding-top: 30px;
         color: var(--secondary-color);
-    }
-    & .img-content {
-        & img {
-            padding-top: 100px;
-        }
     }
 }

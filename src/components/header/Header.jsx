@@ -19,7 +19,7 @@ function Header() {
                     <li> <a href="#">Contact Me</a> </li>
                   </ul>
                 </nav>
-                <div className="download"><img src={resume} alt="resume" /></div>
+                <div className="download"><img src={resume} alt="resume"/></div>
             </div>
         </div>
         </header>

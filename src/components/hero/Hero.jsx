@@ -35,7 +35,7 @@ function Hero() {
                          </ul>
                 </div>
                 <div className="img-content">
-                    <img src={man} alt="man-photo"/>
+                    <img src={man} alt="man-photo" width={700} height={500}/>
                 </div>
             </div>
            </div>
