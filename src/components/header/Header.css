@@ -1,16 +1,14 @@
 body {
     font-family: sans-serif;
 }
-.container {
-    height: 104px;
-}
+
 
 .header-wrapper {
     & .download {
         width: 85px;
         height: 24px;
     }
-    padding: 24px 0 24px 0;
+    padding: 24px 0 24px 0; 
     & .logo {
         display: flex;
         align-items: center;
@@ -35,9 +33,4 @@ body {
            }
         }
     }
-}
-.social-media-wrapper {
-    display: flex;
-    gap: 32px;
-    padding-top: 100px;
 }

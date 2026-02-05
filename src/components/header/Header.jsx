@@ -16,7 +16,7 @@ function Header() {
                     <li> <a href="#">About Me</a> </li>
                     <li> <a href="#">Skills</a> </li>
                     <li> <a href="#">Project</a> </li>
-                    <li> <a href="#">Contact Me</a> </li>
+                    <li> <a href="#">Contact  Me</a> </li>
                   </ul>
                 </nav>
                 <div className="download"><img src={resume} alt="resume"/></div>

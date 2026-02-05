@@ -1,0 +1,26 @@
+.container {
+    h2 {
+        padding: 70px 0 60px 0;
+        font-weight: 800;
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+    }
+    & .skills-wrapper {
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 60px;
+    }
+    & .js {
+        width: 186px;
+        height: 186px;
+        background-color: black;
+        & h3 {
+            color: white;
+            font-size: 20px;
+            display: flex;
+            
+        }
+    }
+}

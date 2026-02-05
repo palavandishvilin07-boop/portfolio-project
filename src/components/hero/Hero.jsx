@@ -3,13 +3,13 @@ import facebook from '../../assets/images/facebook.svg'
 import reddit from '../../assets/images/reddit.svg'
 import twitter from '../../assets/images/twitter.svg'
 import discord from '../../assets/images/discord.svg'
-import man from '../../assets/images/man.png'
+import boy from '../../assets/images/man.png'
 
 
 function Hero() {
     return (
         <>
-        <section>
+        <section> 
            <div className="container">
             <div className="hero-wrapper">
                 <div className="text-content">
@@ -35,7 +35,7 @@ function Hero() {
                          </ul>
                 </div>
                 <div className="img-content">
-                    <img src={man} alt="man-photo" width={700} height={500}/>
+                    <img src={boy} alt="man-photo" width={700} height={500}/>
                 </div>
             </div>
            </div>
