@@ -1,0 +1,15 @@
+.my-projects {
+    & .crypto {
+        & .title {
+            & h2 {
+                color: white;
+            }
+            & .photo {
+                & img {
+                    width: 530px;
+                    height: 397px;
+                }
+            }
+        }
+    }
+}

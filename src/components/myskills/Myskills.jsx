@@ -12,18 +12,18 @@ function Myskills() {
         
         <section>
             <div className="container">
-            <h2>My Skills</h2>
+            <h2>My <span>Skills</span></h2>
             <div className="skills-wrapper">
                 <img src={git} alt="github" />
-                <div className="js"></div>
                 <img src={sass} alt="sass/scss" />
                 <img src={nest} alt="nest" />
                 <img src={storybook} alt="storybook" />
-                <img src={git} alt="" />
-                <img src={git} alt="" />
-                <img src={git} alt="" />
-                <img src={git} alt="" />
-                <img src={git} alt="" />
+                <img src={git} alt="github" />
+                <img src={git} alt="github" />
+                <img src={git} alt="github" />
+                <img src={git} alt="github" />
+                <img src={git} alt="github" />
+                <img src={git} alt="github" />
             </div>
         </div>
         </section>

@@ -3,7 +3,7 @@ import facebook from '../../assets/images/facebook.svg'
 import reddit from '../../assets/images/reddit.svg'
 import twitter from '../../assets/images/twitter.svg'
 import discord from '../../assets/images/discord.svg'
-import boy from '../../assets/images/man.png'
+import boy from '../../assets/images/boy.png'
 
 
 function Hero() {
