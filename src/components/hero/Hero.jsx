@@ -1,47 +1,32 @@
 import './Hero.css'
-import facebook from '../../assets/images/facebook.svg'
-import reddit from '../../assets/images/reddit.svg'
-import twitter from '../../assets/images/twitter.svg'
-import discord from '../../assets/images/discord.svg'
 import boy from '../../assets/images/boy.png'
+import { useEffect, useState } from 'react'
 
 
 function Hero() {
-    return (
-        <>
-        <section> 
-           <div className="container">
-            <div className="hero-wrapper">
-                <div className="text-content">
-                    <h1>
-                        Hello i'am Evren Shan. Frontend Developer Based In India
-                    </h1>
-                    <p>I'm Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting
-                         industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown 
-                        printer took a galley of type and scrambled it to specimen book.</p>
-                         <ul className='social-media-wrapper'>
-                            <li>
-                                <img src={facebook} alt="facebook" />
-                            </li>
-                            <li>
-                                <img src={reddit} alt="reddit" />
-                            </li>
-                            <li>
-                                <img src={twitter} alt="twitter" />
-                            </li>
-                            <li>
-                                <img src={discord} alt="discord" />
-                            </li>
-                         </ul>
-                </div>
-                <div className="img-content">
-                    <img src={boy} alt="man-photo" width={700} height={500}/>
-                </div>
-            </div>
-           </div>
+    const [heroSection, setheroSection] = useState([])
 
+    const url = "https://raw.githubusercontent.com/palavandishvilin07-boop/portfolio-project-data/refs/heads/main/src/hero-section/hero-section-data.json"
+
+
+    useEffect(() => {
+        fetch(url)
+        .then((response) => response.json())
+        .then((data) => setheroSection(data))
+        .catch((error) => console.error("Error fetching data", error));
+    },[]);
+
+    return (
+        <section className="hero-section">
+            {heroSection.map((section, index) =>(
+                <article className="content" key={index}>
+                    <h1>{section.title}</h1>
+                    <img src={boy} alt="boy photo" />
+                    <p>{section.description}</p>
+                </article>
+            ))}
         </section>
-        </>
     )
+    
 }
 export default Hero

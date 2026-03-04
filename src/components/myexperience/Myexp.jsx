@@ -35,12 +35,12 @@ function Myexp() {
     ]
 
 
-    return (
+    return (   
 
         <>
         <section className='myexperience'>
             <div className="container">
-                <h2 className='Myexph2'>My <span>Experience</span></h2>
+                <h2 className='titleh2'>My <span>Experience</span></h2>
                 <div className="article-wrapper">
                     {
                         data.map(articleData =>{

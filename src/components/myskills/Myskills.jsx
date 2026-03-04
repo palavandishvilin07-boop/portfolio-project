@@ -1,6 +1,5 @@
 import './Myskills.css'
 import git from '../../assets/images/git.png'
-import js from '../../assets/images/js.png'
 import sass from '../../assets/images/sass.png'
 import nest from '../../assets/images/nest.png'
 import storybook from '../../assets/images/storybook.png'

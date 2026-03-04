@@ -3,7 +3,7 @@
 }
 .container {
     padding-bottom: 100px;
-    & .Myexph2 {
+    & .titleh2 {
         color: white;
     }
     & .article-wrapper {
